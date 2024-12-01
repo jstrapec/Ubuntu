@@ -1,0 +1,13 @@
+- name: Ubuntu VM setup
+  hosts: localhost
+  tasks:
+    - name: Register username before switch to root
+      debug:
+        msg: "{{ ansible_user_id }}"
+      register: username
+    - name: Sudo configuration for personal user
+      become: yes
+      template:
+        src: sudo.setup.j2
+        dest: /etc/sudoers.d/{{ username.msg }}
+        mode: 0440

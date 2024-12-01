@@ -1,0 +1,24 @@
+apt_packages:
+  - ssh
+  - curl
+  - ubuntu-restricted-extras
+  - gnome-tweaks
+  - gnome-shell-extensions
+  - network-manager-openconnect-gnome
+  - gnome-software
+  - tmux
+  - gnome-shell-extension-manager
+  - geany
+  - terminator
+  - git-all
+  - dconf-editor
+  - flatpak
+  - gnome-software-plugin-flatpak
+  - deja-dup
+  - timeshift
+  - virt-viewer
+  - doublecmd-gtk
+  - opensc 
+  - pcscd 
+  - gnutls-bin
+  - virt-manager
