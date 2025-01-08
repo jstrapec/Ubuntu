@@ -5,6 +5,4 @@ flatpak_apps:
   - org.keepassxc.KeePassXC
   - org.geany.Geany
   - org.gnome.DejaDup
-  - org.remmina.Remmina
   - org.libreoffice.LibreOffice
-  
