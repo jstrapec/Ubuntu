@@ -3,7 +3,5 @@ snap_apps:
   - chromium
   - libreoffice
   - keepassxc
-  - remmina
   - geany
   - teams-for-linux
-  
