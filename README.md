@@ -5,7 +5,7 @@ Copy repository to local machine
 ### Configure sudo
 From directory where are unzipped files run command
 
-`$ ansible-playbook -C -K ubuntu-conf.yml`
+`$ ansible-playbook -C -K ubuntu-sudo.yml`
 
 ### Install software of your choice
 
