@@ -8,8 +8,6 @@ apt_packages:
   - gnome-software
   - tmux
   - gnome-shell-extension-manager
-  - geany
-  - terminator
   - git-all
   - dconf-editor
   - flatpak
@@ -22,3 +20,4 @@ apt_packages:
   - pcscd 
   - gnutls-bin
   - virt-manager
+  - ncdu
