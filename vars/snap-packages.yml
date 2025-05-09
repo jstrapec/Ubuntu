@@ -1,7 +1,4 @@
 snap_apps:
   - codium
-  - chromium
-  - libreoffice
+  - onlyoffice-desktopeditors
   - keepassxc
-  - geany
-  - teams-for-linux
