@@ -4,7 +4,7 @@ Copy repository to local machine
 
 Install ansible-core
 
- $ ansible-playbook -C -K ubuntu-sudo.yml
+`$ ansible-playbook -C -K ubuntu-sudo.yml`
 
 ### Configure sudo
 
