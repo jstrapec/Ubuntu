@@ -2,9 +2,9 @@
 - name: Install packages for apt and snap
   hosts: localhost
   vars_files:
-    - apt-packages.yml
-    - snap-packages.yml
-    - flatpak-packages.yml
+    - ./vars/apt-packages.yml
+    - ./vars/snap-packages.yml
+    - ./vars/flatpak-packages.yml
   tasks:
     - name: Install apt apps
       become: yes
