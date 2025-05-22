@@ -15,6 +15,7 @@
       become: yes
       snap:
         name: "{{ snap_apps }}"
+        classic: true
       tags: snap
     - name: Add flatpak remote
       flatpak_remote:
