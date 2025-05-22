@@ -2,20 +2,15 @@
 - name: Install packages for apt and snap
   hosts: localhost
   vars_files:
-    - apt-packages.yml
-    - snap-packages.yml
-    - flatpak-packages.yml
+    - ./vars/apt-packages.yml
+    - ./vars/snap-packages.yml
+    - ./vars/flatpak-packages.yml
   tasks:
     - name: Install apt apps
       become: yes
       apt:
         name: "{{ apt_packages }}"
       tags: apt
-    - name: Install snap apps
-      become: yes
-      snap:
-        name: "{{ snap_apps }}"
-      tags: snap
     - name: Add flatpak remote
       flatpak_remote:
         name: flathub
