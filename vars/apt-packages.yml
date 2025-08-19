@@ -1,7 +1,6 @@
 apt_packages:
   - ssh
   - curl
-  - ubuntu-restricted-extras
   - gnome-tweaks
   - gnome-shell-extensions
   - network-manager-openconnect-gnome
@@ -27,4 +26,3 @@ apt_packages:
   - gstreamer1.0-plugins-ugly 
   - gstreamer1.0-libav
   - ttf-mscorefonts-installer
-  - unrar
