@@ -10,7 +10,7 @@ Install ansible-core
 
 From directory where are unzipped files run command
 
-`$ ansible-playbook -C -K ubuntu-sudo.yml`
+`$ ansible-playbook -K ubuntu-sudo.yml -e "ansible_user_id=user_name"`
 
 ### Install software of your choice
 
