@@ -13,7 +13,6 @@ apt_packages:
   - gnome-software-plugin-flatpak
   - deja-dup
   - timeshift
-  - virt-viewer
   - doublecmd-gtk
   - opensc 
   - pcscd 
