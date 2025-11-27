@@ -3,7 +3,6 @@ apt_packages:
   - curl
   - ubuntu-restricted-extras
   - gnome-tweaks
-  - gnome-shell-extensions
   - network-manager-openconnect-gnome
   - gnome-software
   - tmux
@@ -20,4 +19,3 @@ apt_packages:
   - pcscd 
   - gnutls-bin
   - virt-manager
-  - ncdu
