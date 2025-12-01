@@ -1,5 +1,6 @@
 apt_packages:
   - ssh
+  - sshpass
   - curl
   - ubuntu-restricted-extras
   - gnome-tweaks
@@ -19,3 +20,4 @@ apt_packages:
   - pcscd 
   - gnutls-bin
   - virt-manager
+  - intel-media-va-driver-non-free
