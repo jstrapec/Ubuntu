@@ -1,6 +1,7 @@
 apt_packages:
   - ssh
   - curl
+  - vim
   - ubuntu-restricted-extras
   - gnome-tweaks
   - gnome-shell-extensions
@@ -10,12 +11,12 @@ apt_packages:
   - gnome-shell-extension-manager
   - git-all
   - dconf-editor
-  - flatpak
-  - gnome-software-plugin-flatpak
   - deja-dup
   - timeshift
   - doublecmd-gtk
   - opensc 
   - pcscd 
   - gnutls-bin
-  - ncdu
+  - remmina
+  - keepassxc
+  - chromium-browser
