@@ -5,9 +5,11 @@ Copy repository to local machine
 ### Configure sudo
 
 Install ansible
+
 `$ sudo apt install ansible-core`
 
-From directory where are unzipped files run playbook under root user. 
+From directory where are unzipped files run playbook under root user
+
 `# ansible-playbook ubuntu-sudo.yml`
 
 ### Install software of your choice
