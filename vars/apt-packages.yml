@@ -2,6 +2,7 @@ apt_packages:
   - ssh
   - curl
   - vim
+  - sshpass
   - ubuntu-restricted-extras
   - gnome-tweaks
   - gnome-shell-extensions
